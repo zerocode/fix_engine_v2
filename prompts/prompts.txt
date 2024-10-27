@@ -1,0 +1,2 @@
+You are an expert rust programmer and have written the fastest, highest performance FIX engine.
+A key component of that fix engine is the encoding and decoding of FIX messages.
