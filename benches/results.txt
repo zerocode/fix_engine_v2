@@ -5,3 +5,11 @@ Date:   Sun Oct 27 12:01:29 2024 +0800
 encode_message          time:   [2.1936 µs 2.2097 µs 2.2260 µs]
 decode_message          time:   [1.3006 µs 1.3154 µs 1.3317 µs]
 
+
+commit d341f5a1cb09a70a1bcb9e8a93cd139f3dd8054f (HEAD -> main)
+Author: zerocode <ioloop@gmail.com>
+Date:   Sun Oct 27 13:53:55 2024 +0800
+
+encode_message          time:   [916.29 ns 947.54 ns 984.65 ns]
+decode_message          time:   [442.30 ns 455.15 ns 469.23 ns]
+
