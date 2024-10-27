@@ -1,0 +1,7 @@
+commit 555073fbf719dc5e82bfcbd27bc49582a584e865 (HEAD -> main, origin/main)
+Author: zerocode <ioloop@gmail.com>
+Date:   Sun Oct 27 12:01:29 2024 +0800
+
+encode_message          time:   [2.1936 µs 2.2097 µs 2.2260 µs]
+decode_message          time:   [1.3006 µs 1.3154 µs 1.3317 µs]
+
