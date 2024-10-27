@@ -1,0 +1,22 @@
+[package]
+name = "fix_engine"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A high-performance FIX protocol engine"
+
+[dependencies]
+thiserror = "1.0"
+bytes = "1.5"
+memchr = "2.6"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "fix_benchmarks"
+harness = false
+
+[[example]]
+name = "basic_usage"
+path = "examples/basic_usage.rs"

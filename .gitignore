@@ -1,0 +1,53 @@
+# Target directory - Rust build output
+/target/
+
+# Cargo.lock (generated automatically if using a library, but should be included for binaries)
+# Uncomment if you are developing a library and don't want to track Cargo.lock
+# /Cargo.lock
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# JetBrains IDEs settings
+/.idea/
+/*.iws
+/*.ipr
+/out/
+
+# Rust Language Server (RLS) files
+/rls/
+
+# Generated documentation (by `cargo doc`)
+/doc/
+
+# Dependency directory for cargo vendor
+/vendor/
+
+# Optional features for working with CLion/Rust in IntelliJ IDEA
+/.clion/
+/cmake-build-debug/
+/cmake-build-release/
+/cmake-build-*/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# If you use other tools like clippy or fmt
+/target/rls/
+/target/debug/
+/target/release/
+
+# Binaries for specific platforms
+*.exe
+*.out
+*.o
+*.so
+*.dylib
+*.dll
+
+/specs
+
