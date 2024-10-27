@@ -10,6 +10,7 @@ commit d341f5a1cb09a70a1bcb9e8a93cd139f3dd8054f (HEAD -> main)
 Author: zerocode <ioloop@gmail.com>
 Date:   Sun Oct 27 13:53:55 2024 +0800
 
-encode_message          time:   [916.29 ns 947.54 ns 984.65 ns]
-decode_message          time:   [442.30 ns 455.15 ns 469.23 ns]
+encode_message          time:   [783.90 ns 805.15 ns 828.24 ns]
+decode_message          time:   [405.96 ns 408.39 ns 411.31 ns]
+
 
