@@ -1,7 +1,6 @@
 use bytes::{BufMut, BytesMut};
 use std::fmt;
 use smallvec::SmallVec;
-use rustc_hash::FxHashMap;
 use itoa::Buffer as ItoaBuffer;
 
 pub const SOH: u8 = 0x01;

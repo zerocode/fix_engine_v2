@@ -8,8 +8,6 @@ pub use field::FixField;
 pub use message::FixMessage;
 pub use tags::{fix_version, msg_type, Tag};
 
-use bytes::BufMut;
-
 #[cfg(test)]
 mod tests {
     use super::*;

@@ -150,6 +150,7 @@ impl FixMessage {
         Ok(message)
     }
 
+    // Possible to remove these iterations, requires bench
     #[inline]
     fn calculate_message_size(&self) -> Result<usize, FixError> {
         let mut size = 0;
